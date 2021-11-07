@@ -10,8 +10,8 @@ function findPrime(...numbers) {
 
 
 //Tek sayı için asallık kontrolü.
-let isPrime;
 function findPrimeSubFunc(number) {
+    let isPrime = true
     if (number >= 2) {
         for (let i = 2; i < number; i++) {
             if (number % i == 0) {
@@ -22,7 +22,7 @@ function findPrimeSubFunc(number) {
             }
         }
 
-        if (isPrime == true || number == 2) {
+        if (isPrime) {
             console.log(number + " sayısı asaldır.")
         } else {
             console.log(number + " sayısı asal değildir!")
@@ -44,4 +44,4 @@ function findPrimeForArray(array) {
 
 }
 
-findPrime(-4, -3, -2, -1, 0, 1, 2, 3, 4, 123, 1234)
+findPrime(-4, -3, -2, -1, 0, 1, 2, 3, 4, 5, 123, 1234)
