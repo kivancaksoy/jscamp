@@ -1,4 +1,4 @@
-import { users } from "../data/users.js"
+/* import { users } from "../data/users.js"
 import DataError from "../models/dataError.js"
 
 export default class UserService {
@@ -108,4 +108,4 @@ export default class UserService {
             }
         })
     }
-}
+} */
